@@ -246,6 +246,9 @@
   .mb-36 {
     margin-bottom: calc(var(--spacing) * 36);
   }
+  .mb-44 {
+    margin-bottom: calc(var(--spacing) * 44);
+  }
   .mb-52 {
     margin-bottom: calc(var(--spacing) * 52);
   }
@@ -258,9 +261,17 @@
   .table {
     display: table;
   }
+  .size-24 {
+    width: calc(var(--spacing) * 24);
+    height: calc(var(--spacing) * 24);
+  }
   .size-36 {
     width: calc(var(--spacing) * 36);
     height: calc(var(--spacing) * 36);
+  }
+  .size-40 {
+    width: calc(var(--spacing) * 40);
+    height: calc(var(--spacing) * 40);
   }
   .h-full {
     height: 100%;
@@ -397,6 +408,15 @@
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
+  }
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
+  }
+  .px-35 {
+    padding-inline: calc(var(--spacing) * 35);
+  }
+  .px-50 {
+    padding-inline: calc(var(--spacing) * 50);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
