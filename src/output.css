@@ -17,6 +17,7 @@
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --font-Bai: "Bai Jamjuree", sans-serif;
   }
 }
 @layer base {
@@ -165,12 +166,6 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
-  }
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
-  }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
@@ -183,10 +178,6 @@
   .size-36 {
     width: calc(var(--spacing) * 36);
     height: calc(var(--spacing) * 36);
-  }
-  .size-44 {
-    width: calc(var(--spacing) * 44);
-    height: calc(var(--spacing) * 44);
   }
   .h-full {
     height: 100%;
@@ -219,59 +210,8 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-\[url\(\)\] {
-    background-image: url();
-  }
-  .bg-\[url\(\.\/images\/bg-header-mobile\.png\)\] {
-    background-image: url(./images/bg-header-mobile.png);
-  }
-  .bg-\[url\(\.\/imgaes\/bg-header-mobile\.png\)\] {
-    background-image: url(./imgaes/bg-header-mobile.png);
-  }
-  .bg-\[url\(\.\/imgages\/bg-header-mobile\.png\)\] {
-    background-image: url(./imgages/bg-header-mobile.png);
-  }
   .bg-\[url\(\/images\/bg-header-mobile\.png\)\] {
     background-image: url(/images/bg-header-mobile.png);
-  }
-  .bg-\[url\(\/img\/bg-\.jpg\)\] {
-    background-image: url(/img/bg-.jpg);
-  }
-  .bg-\[url\(\/img\/bg-header-mobile\.jpg\)\] {
-    background-image: url(/img/bg-header-mobile.jpg);
-  }
-  .bg-\[url\(\/img\/bg-header-mobile\.png\)\] {
-    background-image: url(/img/bg-header-mobile.png);
-  }
-  .bg-\[url\(\/img\/bg-m\.jpg\)\] {
-    background-image: url(/img/bg-m.jpg);
-  }
-  .bg-\[url\(\/img\/bg\.jpg\)\] {
-    background-image: url(/img/bg.jpg);
-  }
-  .bg-\[url\(\/img\/mountains\.jpg\)\] {
-    background-image: url(/img/mountains.jpg);
-  }
-  .bg-\[url\(\/imgages\/bg-header-mobile\.png\)\] {
-    background-image: url(/imgages/bg-header-mobile.png);
-  }
-  .bg-\[url\(images\)\] {
-    background-image: url(images);
-  }
-  .bg-\[url\(images\/bg-header-mobile\.png\)\] {
-    background-image: url(images/bg-header-mobile.png);
-  }
-  .bg-\[url\(img\/bg-header-mobile\.png\)\] {
-    background-image: url(img/bg-header-mobile.png);
-  }
-  .bg-\[url\(imgages\/bg-header-mobile\.png\)\] {
-    background-image: url(imgages/bg-header-mobile.png);
-  }
-  .bg-auto {
-    background-size: auto;
-  }
-  .bg-contain {
-    background-size: contain;
   }
   .bg-cover {
     background-size: cover;
@@ -279,32 +219,11 @@
   .bg-no-repeat {
     background-repeat: no-repeat;
   }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
-  }
-  .p-7 {
-    padding: calc(var(--spacing) * 7);
-  }
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
-  }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
-  .pt-0 {
-    padding-top: calc(var(--spacing) * 0);
-  }
-  .pt-10 {
-    padding-top: calc(var(--spacing) * 10);
-  }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
-  }
-  .pt-30 {
-    padding-top: calc(var(--spacing) * 30);
-  }
   .pt-35 {
     padding-top: calc(var(--spacing) * 35);
+  }
+  .font-Bai {
+    font-family: var(--font-Bai);
   }
   .underline {
     text-decoration-line: underline;
