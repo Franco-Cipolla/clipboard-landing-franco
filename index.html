@@ -176,11 +176,11 @@
         <h1 class="text-3xl font-semibold text-dark-grayish-blue mb-5">
           Clipboard for iOS and Mac OS
         </h1>
-        <p class="text-grayish-blue/90 mb-10 px-6.5">
+        <p class="text-grayish-blue/90 mb-10 lg:px-32 px-6.5">
           Available for free on the App Store. Download for Mac or iOS, sync
           with iCloud and you’re ready to start adding to your clipboard.
         </p>
-        <div class="flex flex-col gap-5 w-full text-white">
+        <div class="flex lg:flex-row lg:w-2xl flex-col gap-5 w-full text-white">
           <button
             class="w-full bg-strong-cyan py-2.5 rounded-full shadow-md shadow-strong-cyan/40 inset-shadow-xs"
           >
@@ -195,18 +195,38 @@
       </section>
     </main>
     <footer
-      class="max-w-full max-h-full min-w-full min-h-full bg-grayish-blue/10 py-15 items-center justify-center flex flex-col text-center px-10 gap-5"
+      class="max-w-full max-h-full min-w-full min-h-full bg-grayish-blue/10 py-15 items-center lg:justify-evenly justify-center lg:flex-row flex flex-col text-center px-10 gap-5"
     >
       <img src="images/logo.svg" alt="logo" class="size-12 mb-2" />
-      <a href="#"> FAQs</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Privacy Policy </a>
-      <a href="#">Press Kit </a>
-      <a href="#">Install Guide</a>
-      <div class="flex flex-row gap-10 mt-10">
-        <img src="images/icon-facebook.svg" alt="icon-facebook" />
-        <img src="images/icon-twitter.svg" alt="icon-twitter" />
-        <img src="images/icon-instagram.svg" alt="icon-instagram" />
+      <div class="lg:flex-row flex-col gap-5 flex lg:gap-15 lg:text-left lg:items-center lg:justify-between">
+        <div class="flex gap-4 lg:gap-2 flex-col">
+          <a href="#"> FAQs</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="flex gap-4 lg:gap-2 flex-col">
+          <a href="#">Privacy Policy </a>
+          <a href="#">Press Kit </a>
+        </div>
+        <div class="flex gap-4 lg:gap-2 self-start flex-col">
+          <a href="#">Install Guide</a>
+        </div>
+      </div>
+      <div class="flex flex-row gap-10 lg:mt-0 lg:gap-4 mt-10">
+        <img
+          src="images/icon-facebook.svg"
+          alt="icon-facebook"
+          class="lg:size-5"
+        />
+        <img
+          src="images/icon-twitter.svg"
+          alt="icon-twitter"
+          class="lg:size-5"
+        />
+        <img
+          src="images/icon-instagram.svg"
+          alt="icon-instagram"
+          class="lg:size-5"
+        />
       </div>
     </footer>
   </body>
