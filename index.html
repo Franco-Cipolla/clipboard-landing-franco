@@ -21,48 +21,52 @@
   <body
     class="flex font-Bai flex-col items-center justify-center p-1 max-w-screen min-h-screen box-border"
   >
+    <header
+      class="lg:min-w-full bg-[url(/images/bg-header-mobile.png)] lg:bg-[url(/images/bg-header-desktop.png)] w-full max-w-full h-full mb-52 pt-52 text-center px-15 flex flex-col items-center justify-center bg-no-repeat bg-cover mx-auto"
+    >
+      <img
+        src="images/logo.svg"
+        alt="Logo"
+        class="size-36 mb-20 lg:size-20 lg:mb-10"
+      />
+      <h1 class="font-semibold text-dark-grayish-blue text-4xl mb-5">
+        A history of everything you copy
+      </h1>
+      <p class="text-grayish-blue/90 mb-9 lg:px-50">
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </p>
+      <div class="flex lg:flex-row lg:w-2xl flex-col gap-5 w-full text-white">
+        <button
+          class="w-full bg-strong-cyan py-2.5 rounded-full shadow-md shadow-strong-cyan/40 inset-shadow-xs"
+        >
+          Download for iOS
+        </button>
+        <button
+          class="w-full bg-light-blue py-2.5 rounded-full shadow-md shadow-light-blue/40 inset-shadow-xs"
+        >
+          Download for Mac
+        </button>
+      </div>
+    </header>
     <main class="max-w-full max-h-full">
       <section
-        class="bg-[url(/images/bg-header-mobile.png)] w-full max-w-full h-full mb-52 pt-52 text-center px-15 flex flex-col items-center justify-center bg-no-repeat bg-cover mx-auto"
-      >
-        <img src="images/logo.svg" alt="Logo" class="size-36 mb-20" />
-        <h1 class="font-semibold text-dark-grayish-blue text-4xl mb-5">
-          A history of everything you copy
-        </h1>
-        <p class="text-grayish-blue/90 mb-9">
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </p>
-        <div class="flex flex-col gap-5 w-full text-white">
-          <button
-            class="w-full bg-strong-cyan py-2.5 rounded-full shadow-md shadow-strong-cyan/40 inset-shadow-xs"
-          >
-            Download for iOS
-          </button>
-          <button
-            class="w-full bg-light-blue py-2.5 rounded-full shadow-md shadow-light-blue/40 inset-shadow-xs"
-          >
-            Download for Mac
-          </button>
-        </div>
-      </section>
-      <section
-        class="max-w-full max-h-full flex flex-col mb-52 text-center px-5"
+        class="max-w-full items-center justify-center max-h-full flex flex-col mb-52 text-center px-5"
       >
         <h1 class="text-3xl font-semibold text-dark-grayish-blue px-7 mb-4">
           Keep track of your snippets
         </h1>
-        <p class="text-grayish-blue/90 mb-15 px-9">
+        <p class="lg:px-70 text-grayish-blue/90 mb-15 px-9">
           Clipboard instantly stores any item you copy in the cloud, meaning you
           can access your snippets immediately on all your devices. Our Mac and
           iOS apps will help you organize everything.
         </p>
-        <div>
+        <div class="lg:flex lg:text-left">
           <img src="images/image-computer.png" alt="Computer" />
-          <div class="mt-10 flex flex-col gap-10">
+          <div class="mt-20 flex flex-col gap-10">
             <div>
               <h2
-                class="text-2xl font-semibold text-dark-grayish-blue px-7 mb-4"
+                class="lg:px-15 text-2xl font-semibold text-dark-grayish-blue px-7 mb-4"
               >
                 Quick Search
               </h2>
@@ -73,7 +77,7 @@
             </div>
             <div>
               <h2
-                class="text-2xl font-semibold text-dark-grayish-blue px-7 mb-4"
+                class="lg:px-15 text-2xl font-semibold text-dark-grayish-blue px-7 mb-4"
               >
                 iCloud Sync
               </h2>
@@ -83,7 +87,7 @@
             </div>
             <div>
               <h2
-                class="text-2xl font-semibold text-dark-grayish-blue px-7 mb-4"
+                class=" lg:px-15 text-2xl font-semibold text-dark-grayish-blue px-7 mb-4"
               >
                 Complete History
               </h2>
@@ -96,7 +100,7 @@
         </div>
       </section>
       <section
-        class="max-w-full max-h-full flex flex-col mb-52 text-center px-5"
+        class="max-w-full max-h-full flex flex-col mb-28 text-center px-5"
       >
         <h1 class="text-3xl font-semibold text-dark-grayish-blue px-7 mb-4">
           Access Clipboard Anywhere
